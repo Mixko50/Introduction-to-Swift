@@ -13,10 +13,19 @@ for thing2 in 1...10 {
     print(thing2)
 }
 
+// Dictionaries
 let scores = ["Bob": 42, "Alice": 99, "Jane": 13]
 
 for (name, score) in scores {
     print("\(name)'s score is \(score)")
+}
+
+//index
+let primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
+
+for (n, prime) in primes.enumerated()
+{
+    print("\(n) = \(prime)")
 }
 
 var x = 0
